@@ -19,16 +19,20 @@
     src: url(../font/OpenSans-Regular.ttf);
 }
 body {background-color: peru;
-    margin:0;padding:0;
+    margin:auto;
+    padding:0;
 } 
 
 img {
-    
-    max-width: 100%;
+    margin: auto;
     height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
 }
 
-#wrapper {width: 65%;
+#wrapper {width: calc(100% - 50%);
     height: 80%;
     margin: auto;
     margin-top: 30px;
@@ -36,7 +40,7 @@ img {
      background-color: white;
      /*color: rgb(82, 43, 1);*/
      color: #693f27;
-     padding: 30px;
+     padding: auto;
      box-shadow: inset;
      border-color: linen;
 }
@@ -44,41 +48,49 @@ img {
 h1 {font-family: pancake;
   letter-spacing: 4px; 
   color: 693f27; 
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
 }
 
  
 ol, ul {
     font-family: normaltext;
     font-weight: lighter;
-    margin: auto;
-    
+    margin: auto; 
     
 }
 
 li {
     margin-bottom: 10px;
+    margin:auto
 }
 
-dt, dl, dd {
+dt, dl {
     font-family: normaltext;
     margin-left: 3%;
-    /*margin-right: 30%;*/
     margin-bottom: 20px;
+    margin:auto;
 
 }
 
 blockquote {
     font-family: pancake;
     font-size: x-large;
-    font-weight: lighter;
+    font-weight: bold;
     text-align: center;
     color: #d53032;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    max-width: 70%;
+    padding-left: 20%;
+    padding-right: 20%;
     letter-spacing: 2px;
 }
 
-#subtitle {
+.subtitle {
     font-family: normaltext;
     font-weight: bold;
     padding-top: 10px;
@@ -86,10 +98,21 @@ blockquote {
     margin-bottom: 5px;
 }
 
+#subtitleb {
+    font-family: normaltext;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
 #title {
     font-family: pancake ;
     letter-spacing: 3px; 
-    font-size: x-large;    
+    font-size: x-large;
+    padding-top: 50px;    
 }
 
 #per-serving {
@@ -101,41 +124,53 @@ blockquote {
     padding-right: 10%;
     padding-left: 10%;
     padding-top: 20px;
+    background-color:#f7f0e5;
 
 }
 
-#preparation #ingredients{
+#preparation {
     margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+ #ingredients {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+#nutritional {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #table {
     border: 2px solid black;
-    background-color: #f3e1c2;
-    max-width: 480px;
-    
-
-}
-
-div #facts {
-    column-count: 2;
+    background-color: white;
+    max-width: 300px;
+    min-width: 200px;
+    align-content: right;
+    margin-right: auto;
+    margin-left: auto;
     padding-bottom: 10px;
-    padding-left: 5px;
-    
-
+    margin-bottom: 20px;
 }
 
-#percentage {
-    text-align: right;
+.facts {
+    column-count: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    max-width: auto;
+    min-width: auto;
 }
 
-.bb {
+#bb {
     border-bottom: 1px dotted black;
-    margin-bottom: 10px;
-    padding-left: 0px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
-
-
-    
 
