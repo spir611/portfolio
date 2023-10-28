@@ -52,13 +52,14 @@ img {
      box-shadow: inset;
      border-color: linen;
      border-style: hidden;
+     border-radius: 25px;
 }
 
 h1 {font-family: pancake;
   letter-spacing: 3px; 
   color: 693f27; 
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 20%;
   padding-right: 20%;
   text-align: center;
@@ -67,7 +68,7 @@ h1 {font-family: pancake;
   margin-left: 1%;
   margin-top: 10px;
   /*border: solid 2px #693f27;*/
-  border-radius: 15%;
+  border-radius: 25px 50px;
   background-color: #ffdfaa;
 }
 
@@ -162,7 +163,7 @@ blockquote {
     padding-left: 10%;
     padding-top: 20px;
     background-color:#ffdfaa;
-    border-radius: 12%;
+    border-radius: 25px;
 
 }
 
