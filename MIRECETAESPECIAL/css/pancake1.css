@@ -18,9 +18,15 @@
     font-family: normaltext;
     src: url(../font/OpenSans-Regular.ttf);
 }
-body {background-color: peru;
+
+* {box-sizing: border-box;}
+
+
+body {
     margin:auto;
     padding:0;
+    background-image: url(../img/seamless-pattern-with-maple-leaves-autumn-pattern-foliage-wrapping-paper_422871-1910.avif);
+    font-size: 1em;
 } 
 
 img {
@@ -30,9 +36,10 @@ img {
     min-width: 100%;
     padding-right: 0;
     padding-left: 0;
+    box-shadow: inset;
 }
 
-#wrapper {width: calc(100% - 50%);
+#wrapper {width: 70%;
     height: 80%;
     min-width: 220px;
     margin: auto;
@@ -41,32 +48,46 @@ img {
      background-color: white;
      /*color: rgb(82, 43, 1);*/
      color: #693f27;
-     padding: auto;
+     padding: 2%;
      box-shadow: inset;
      border-color: linen;
+     border-style: hidden;
 }
 
 h1 {font-family: pancake;
-  letter-spacing: 4px; 
+  letter-spacing: 3px; 
   color: 693f27; 
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 20%;
   padding-right: 20%;
   text-align: center;
+  /*box-shadow: #693f27;*/
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 10px;
+  /*border: solid 2px #693f27;*/
+  border-radius: 15%;
+  background-color: #ffdfaa;
 }
 
  
 ol, ul {
     font-family: normaltext;
-    font-weight: lighter;
+    font-weight: bold;
     margin: auto; 
     
+}
+
+ul 
+    {list-style-image: url(../img/favicon_pancake.jpg);
+ 
 }
 
 li {
     margin-bottom: 10px;
     margin:auto
+    line-spacing: 2px;
 }
 
 dt, dl {
@@ -78,8 +99,8 @@ dt, dl {
 }
 
 blockquote {
-    font-family: pancake;
-    font-size: x-large;
+    /*font-family: pancake;
+    //font-size: x-large;
     font-weight: bold;
     text-align: center;
     color: #d53032;
@@ -88,22 +109,36 @@ blockquote {
     max-width: 70%;
     padding-left: 20%;
     padding-right: 20%;
-    letter-spacing: 2px;
+    letter-spacing: 2px;*/
+
+    font-family: normaltext;
+    font-style: italic;
+    font-weight: bold;
+    border-left: 4px solid peru;
+    padding: 5%;
+    color:#d53032;
+
+}
+
+#aut {
+    text-align: right;
+    font-size: .7em;
+    color: #d53032;
 }
 
 .subtitle {
     font-family: normaltext;
     font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-bottom: 5px;
 }
 
 #subtitleb {
     font-family: normaltext;
     font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-bottom: 5px;
     text-align: center;
 
@@ -113,7 +148,7 @@ blockquote {
     font-family: pancake ;
     letter-spacing: 3px; 
     font-size: x-large;
-    padding-top: 50px;    
+    padding-top: 10px;    
 }
 
 #per-serving {
@@ -126,20 +161,21 @@ blockquote {
     padding-right: 10%;
     padding-left: 10%;
     padding-top: 20px;
-    background-color:#f7f0e5;
+    background-color:#ffdfaa;
+    border-radius: 12%;
 
 }
 
 #preparation {
-    margin-top: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     margin-bottom: 0px;
 }
 
  #ingredients {
-    margin-top: 50px;
-    margin-bottom: 50px; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
 }
 
 #nutritional {
@@ -157,6 +193,7 @@ blockquote {
     margin-left: auto;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    padding: 5px
 }
 
 .facts {
