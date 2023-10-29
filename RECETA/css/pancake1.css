@@ -25,19 +25,11 @@
 body {
     margin:auto;
     padding:0;
-    background-image: url(../img/seamless-pattern-with-maple-leaves-autumn-pattern-foliage-wrapping-paper_422871-1910.avif);
+    background-image: url(../img/seamless-pattern-with-leaves-walnut_1150-28680.jpg);
     font-size: 1em;
 } 
 
-img {
-    margin: auto;
-    height: auto;
-    max-width: 100%;
-    min-width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-    box-shadow: inset;
-}
+
 
 #wrapper {width: 70%;
     height: 80%;
@@ -54,6 +46,17 @@ img {
      border-style: hidden;
      border-radius: 25px;
 }
+
+img {
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    box-shadow: inset;
+}
+
 
 h1 {font-family: pancake;
   letter-spacing: 5px; 
