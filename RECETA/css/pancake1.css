@@ -31,7 +31,7 @@ body {
 
 
 
-#wrapper {width: 70%;
+#wrapper {width: 75%;
     height: 80%;
     min-width: 220px;
     margin: auto;
@@ -97,21 +97,26 @@ li {
 
 }
 
-dt, dl {
+dt {
     font-family: normaltext;
+    font-weight: bolder;
+    font-variant: small-caps;
     margin-left: 3%;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     margin:auto;
-    text-indent: 5%;
-
+    text-indent: 10px;
+    padding-left: 20px;
 }
 
 dd {
-    text-indent: 30%;
-    
+    font-family: normaltext;
+    text-align: right;
+    text-indent: 55px;
+    margin-right: 80%;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    padding-left: 40px;    
 }
-
-
 
 blockquote {
     
@@ -143,9 +148,10 @@ blockquote {
     font-family: normaltext;
     font-weight: bold;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     margin-bottom: 5px;
-    text-align: center;
+    text-indent: 10px;
+    text-align: left;
 
 }
 
@@ -185,39 +191,18 @@ blockquote {
 
 #nutritional {
     padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#table {
-    border: 2px solid black;
-    background-color: white;
-    max-width: 400px;
-    min-width: 220px;
-    align-content: right;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    padding: 5px
-}
-
-#facts {
-    column-count: 1;
+    padding-bottom: 25px;
     padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10px;
-    max-width: auto;
-    min-width: auto;
 }
 
-#bb {
-    border-bottom: 1px dotted black;
-    margin: auto;
-    margin border-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-#spacetop {
-    margin-top: 5%px;
-}
+@media only screen and (width<700px){
+    #wrapper{ width: 95%}  /*redefina el ancho de wrapper para moviles*/
+    img {width: 100%;}
+
+    /*tmb puede cambiar el color de fondo de cualquier*/
+ /*movil first normalmente pero aqui hemos puesto el movil como excepcion*/}
+
+
+ 
+
 
