@@ -1,0 +1,223 @@
+
+
+
+
+
+
+@font-face{font-family: 'Terror';
+src: url(../font/Them_People.ttf)
+}
+
+
+body {
+    background-color: black;
+}
+
+
+#scenario {
+    width: 1497px;
+    height: 842px;
+    background-image: url(../img/yUmHZQ6.webp);
+    margin: auto;
+    position: relative;
+}
+
+
+#moon {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 890px;
+    top: 20px;
+}
+
+
+#witch {
+    position: absolute;
+    width: 250 px;
+    height: 300px;
+    left: 100px;
+    top: 30px;
+    visibility: hidden;
+} 
+
+
+#crow {
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    left: 420px;
+    top: 10px;
+}
+
+
+#bat {
+    position: absolute;
+    width: 250 px;
+    height: 300px;
+    left:190px;
+    top: 10px;
+    visibility: hidden;
+}
+
+
+#pumpkinface {
+    width: 410px;
+    height: 300px;
+    position: absolute;
+    left: 350px;
+    top: 220px;
+}  
+
+
+#zombie {
+    position: absolute;
+    width: 250 px;
+    height: 300px;
+    left:250px;
+    top: 80px;
+    visibility: hidden;
+}
+
+
+audio{
+    opacity: 30%;
+    width: 100px;
+    height: 20px;
+    left:20px;
+   
+}
+
+
+#controlsmessage{
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    
+    font-family: terror;
+    font-size: 20px;
+    color: whitesmoke;   
+}
+
+
+#chillin{
+    text-shadow: 1px 1px red;
+}
+    
+
+#moontext {
+    opacity: .7;  
+    animation-name: showmoontext;
+    font-size: 30PX;
+    font-weight: bold;
+    text-shadow: 2px 2px red;
+    font-family: terror;
+    animation-duration: 2s;
+    animation-iteration-count: 1; 
+    position: absolute; 
+    top: 5px;   
+    left: 500px;
+    color: gray;
+}
+
+
+
+@keyframes showmoontext {
+    from{ opacity:0;
+            color: white;
+            top: 0px;
+            left:500px;
+            font-size: 3px;}    
+    to {opacity:1;
+        color: red;
+        top: 5px;
+        font-size: 30px;
+        left: 500px; }
+}
+
+
+#pumpkintext {
+    animation-name: showpumpkintext;
+    font-family: terror;
+    font-weight: bold;
+    font-size: 70px;
+    animation-duration: 2s;
+    animation-iteration-count: 1; 
+    position: absolute; 
+    bottom: 130px;
+    left: 500px;
+    opacity: 1;
+    color: red;
+    
+}
+
+
+@keyframes showpumpkintext {
+    from{ opacity: 0.1;
+            color: white;
+            visibility: hidden;
+            font-size: 30px;
+            left: 500px;
+            bottom: 180px;
+        } 
+
+    to {opacity:1;
+        color: red;
+        visibility: visible;
+        bottom: 130px;
+        left:500px;
+        font-size: 70px;
+        }
+}
+
+
+
+#battext {
+
+  animation-name: showbattext;
+  text-orientation: sideways;
+  text-shadow: 2px 2px red;
+  font-family: terror;
+  font-weight: bold;
+  font-size: 40px;
+  animation-duration: 2s;
+  animation-iteration-count: 1; 
+  position: absolute; 
+  top: 10px;
+  right: 10px;
+  opacity: .7;
+  color: rgb(176, 175, 175);
+}
+
+
+
+@keyframes showbattext {
+
+  from{ opacity: .2;
+          color: white;
+          font-size: 30px;
+        }
+
+  to {opacity:1;
+      color: red;
+      visibility: visible;
+      
+      font-size: 40px;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

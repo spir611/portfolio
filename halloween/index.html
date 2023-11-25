@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleepy Hollow</title>
+    <link rel="stylesheet" href="./css/halloween.css">
+   <link href="img/faviconPumpkin.jfif" rel="icon" type="image/x-icon">
+   <script src="./javascript/halloween.js"></script>
+
+</head>
+<body>
+    
+    <div id="scenario">
+        <audio id="backgroundterror" controls loop>
+            <source src="./sound/scary-music-box-for-spooky-scenes-165983.mp3" type="audio/mp3">
+        </audio>
+        
+        <audio id="witchsound" controls loop>
+            <source src="./sound/evil-witch-laugh-140135.mp3" type="audio/mp3">
+        </audio>
+        <audio id="batsound" controls loop>
+            <source src="./sound/Bats Flock Squeaking and Chattering - QuickSounds.com.mp3" type="audio/mp3">
+        </audio>
+        <audio id="zombiesound" controls loop>
+            <source src="./sound/undead-zombie-23089.mp3" type="audio/mp3">
+        </audio>
+        
+
+
+        
+        <div id="moon" onmouseover="show('witch');sound ('witchsound');hide('battext')" onmouseout="hide('witch');silence('witchsound');show('battext')" >
+            <img id="witch" src="./img/witch.gif" alt="happy witch">
+        </div>
+        <div id="crow" onmouseover="show('bat');sound ('batsound');hide('moontext')" onmouseout="hide('bat');silence('batsound');show('moontext')">
+            <img id="bat" src="./img/bat.webp" alt="bat">
+        </div>
+        <div id="pumpkinface" onmouseover="show('zombie');sound('zombiesound');hide('pumpkintext')" onmouseout="hide('zombie');silence('zombiesound');show('pumpkintext')">
+            <img id="zombie" src="./img/zombie.gif" alt="zombie">
+        </div>
+        
+        <p id="moontext">DARE YOU TO TOUCH THE MOON</p>
+        <p id="pumpkintext">BEWARE OF ZOMBIES</p>
+        <p id="battext">LOOK OUT FOR BATS</p>
+        <p id="controlsmessage">Push for <b id="chillin">CHILLIN</b>  
+            sound effects</p>
+
+    </div>
+</body>
+</html>
+
