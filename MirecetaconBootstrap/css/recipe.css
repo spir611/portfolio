@@ -1,0 +1,86 @@
+/**********************************************************************/
+/*                                                                    */
+/*                 My Cheesecake recipe with bootstrap                */
+/*                  Lenguage de Marcas 23/24                          */
+/*                         DAW 1º Mañana                              */
+/*             Author: Sandra Barbara Pirpamer                        */
+/*                                                                    */
+/**********************************************************************/
+
+@font-face {
+    font-family: pancake;
+    src: url(../font/VeganStylePersonalUse-5Y58.ttf);
+}
+
+@font-face {
+    font-family: normaltext;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+
+* {box-sizing: border-box;}
+
+.container{/* box-sizing: border-box; */
+    font-family:normaltext;
+padding:30px;}
+
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/hand-drawn-watercolor-pattern-seamless-piece-cheesecake-wild-berries-color-background-cake-fresh-lilac-135122218.jpg);
+}
+
+.custom_h1{
+    font-family: pancake;
+    color: rgb(65, 52, 148) ;     ;
+    /* text-shadow: 1px 1px 2px dark purple, 1px 1px 8px #c045d0, 1px 1px 2px #d53032; */
+    font-size: 3em;
+}
+
+
+
+.custom-blockquote{
+    width: 38%;
+    height: 80px;
+    font-size: 3em;
+    background-color: light plum;
+}
+
+.blockquote{
+    height: 80px;
+    font-family: pancake;
+    background-color: rgb(243, 232, 243);
+    
+    border-left: 3px solid purple;
+
+    margin: auto;
+}
+
+blockquote {
+    margin-left: 10px;
+    
+}
+
+.custom-container{
+    width: 80%;;
+
+    box-sizing: border-box;
+    padding: 30px;
+}
+.bg-custom-color{
+    height:200px;
+    width:100%;
+}
+
+.font_ingredients, .font_preparation, .font_nutritional{
+    font-family: pancake;
+}
+
+.text-custom-color{
+    color: rgb(65, 52, 148); 
+}
+
+/* .custom-li{
+list-style-image: url('../img/piece-of-cake-icon.png');
+
+height: 25px;
+width: 25px;
+} */
+
