@@ -19,14 +19,13 @@
 
 * {box-sizing: border-box;}
 
-.container{/* box-sizing: border-box; */
-    font-family:normaltext;
-padding:30px;}
+.container{
+        font-family:normaltext;
+       /*  padding:30px; */}
 
 body{
-    background-image: url(https://thumbs.dreamstime.com/b/hand-drawn-watercolor-pattern-seamless-piece-cheesecake-wild-berries-color-background-cake-fresh-lilac-135122218.jpg);
+    background-image: url(../img/Wallpaperversion2.png);
 }
-
 .custom_h1{
     font-family: pancake;
     color: rgb(65, 52, 148) ;     ;
@@ -37,14 +36,14 @@ body{
 
 
 .custom-blockquote{
-    width: 38%;
-    height: 80px;
-    font-size: 3em;
+    width: 80%;
+    height: 10vh;
+    font-size: 1.5em;
     background-color: light plum;
 }
 
 .blockquote{
-    height: 80px;
+    height: 15vh;
     font-family: pancake;
     background-color: rgb(243, 232, 243);
     
@@ -54,20 +53,11 @@ body{
 }
 
 blockquote {
-    margin-left: 10px;
+    margin-left: 2%;
     
 }
 
-.custom-container{
-    width: 80%;;
 
-    box-sizing: border-box;
-    padding: 30px;
-}
-.bg-custom-color{
-    height:200px;
-    width:100%;
-}
 
 .font_ingredients, .font_preparation, .font_nutritional{
     font-family: pancake;
@@ -77,10 +67,4 @@ blockquote {
     color: rgb(65, 52, 148); 
 }
 
-/* .custom-li{
-list-style-image: url('../img/piece-of-cake-icon.png');
-
-height: 25px;
-width: 25px;
-} */
 
