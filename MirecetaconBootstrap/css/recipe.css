@@ -21,7 +21,7 @@
 
 .container{
         font-family:normaltext;
-       /*  padding:30px; */}
+       }
 
 body{
     background-image: url(../img/Wallpaperversion2.png);
@@ -29,7 +29,7 @@ body{
 .custom_h1{
     font-family: pancake;
     color: rgb(65, 52, 148) ;     ;
-    /* text-shadow: 1px 1px 2px dark purple, 1px 1px 8px #c045d0, 1px 1px 2px #d53032; */
+    
     font-size: 3em;
 }
 
@@ -37,13 +37,13 @@ body{
 
 .custom-blockquote{
     width: 80%;
-    height: 10vh;
-    font-size: 1.5em;
+    height: 15vh;
+    font-size: 1.2em;
     background-color: light plum;
 }
 
 .blockquote{
-    height: 15vh;
+    height: 25vh;
     font-family: pancake;
     background-color: rgb(243, 232, 243);
     
